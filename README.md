@@ -36,7 +36,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+A) Describes what the meaning is for html. Example. <header> is for the header <p>is a paragraph tag. <footer> is for the footer of the page. 
+
 2. What are the 4 areas of the box model?
+
+A)Content, Border, Padding and Margin
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
