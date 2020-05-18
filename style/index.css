@@ -70,13 +70,30 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+header{
+    display: flex;
+    align-items: baseline;
+    margin: 20px 0;
+}
+nav{
+    margin: 0 auto;
+}
+nav a{
+    margin: 0 35px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img{
+    margin: 25px 0;
 }
 
 .top-content .text-container {
@@ -234,7 +251,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
