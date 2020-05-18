@@ -76,7 +76,7 @@ header{
     margin: 20px 0;
 }
 .nav{
-    margin: 0 auto;
+    display: flex;
 }
 .nav a{
     margin: 0 35px;
@@ -244,17 +244,21 @@ header{
 }
 
 footer {
+    display: flex;
     width: 100%;
     background: black;
 }
 
-footer .footerNav {
-    width: 60%;
+footer{
+    width: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+}
+.footerNav{
+    display: flex;
 }
 .footerNav a{
     margin-right: 65px;
@@ -278,49 +282,50 @@ footer .footerNav a {
 header{
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
- .nav {
-     display: flex;
-     flex-direction: column;
-     flex-wrap: wrap;
-     justify-content: center;
-     align-items: center;
-     position: relative;
-     top: 140px;
-     left: -100px;
-     margin-bottom: 90px;
-    }
-    .nav a{
-        padding: 5px;
-    }
+.nav {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.nav a{
+    padding: 5px;
+}
  .top-content{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
  }
- .logo{
-     position: relative;
-     left: 150px;
+ .top-content img{
+    width: 300px;
+    height: 100px;
  }
- img{
-    width: 100%;
- }
+
+ 
  .middle-content h2{
      text-align: center;
  }
+ .middle-content {
+    margin-bottom: 20px;
+    border-bottom: none;
+}
  .boxes{
-     width: 800px;
-     height: 800px;
+     /* width: 800px;
+     height: 800px; */
      flex-direction: column;
      align-items: center;
+     margin: 0;
+ }
+ .boxes .box1{
+     width: 800px;
+     height: 800px;
  }
  .bottom-content{
      flex-direction: column;
-     /* align-items: center; */
-     /* flex-wrap: wrap; */
  }
  .bottom-content h2{
     margin-top: 20px;
@@ -329,20 +334,19 @@ header{
      flex-wrap: wrap;
  }
  footer{
-     position: absolute;
-    
- }
- .footerNav{
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
     align-items: center;
-    text-align: center;
-    position: relative;
-    left: 100px;
-    
+    justify-content: center;
+ }
+.footerNav{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
 }
 .footerNav a{
-    margin-top: 5px;
+    margin: 5px 0;
 }
+
 }
 
