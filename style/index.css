@@ -75,10 +75,10 @@ header{
     align-items: baseline;
     margin: 20px 0;
 }
-nav{
+.nav{
     margin: 0 auto;
 }
-nav a{
+.nav a{
     margin: 0 35px;
     text-decoration: none;
     font-weight: 600;
@@ -248,7 +248,7 @@ footer {
     background: black;
 }
 
-footer nav {
+footer .footerNav {
     width: 60%;
     display: flex;
     justify-content: start;
@@ -256,8 +256,15 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
+.footerNav a{
+    margin-right: 65px;
+    text-decoration: none;
+    color: black;
+}
 
-footer nav a {
+footer .footerNav a {
     color: white;
     text-decoration: none;
+    
 }
+
