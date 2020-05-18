@@ -326,7 +326,7 @@ header{
     margin-top: 20px;
  }
  .bottom-content p{
-     padding: 0;
+     flex-wrap: wrap;
  }
  footer{
      position: absolute;
