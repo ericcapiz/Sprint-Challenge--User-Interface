@@ -36,17 +36,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-A) Describes what the meaning is for html. Example. <header> is for the header <p>is a paragraph tag. <footer> is for the footer of the page. 
+A) Describes what the meaning is for html. Example: "header" tag is for the header "p" tag is a paragraph tag. "footer" is for the footer of the page. 
 
 2. What are the 4 areas of the box model?
 
-A)Content, Border, Padding and Margin
+A)Content, Border, Padding and Margin.
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+A) align-items:center is for the cross axis.
+
 4. Explain why git is valuable to a team of developers.
 
+A)One reason git is important is because of verion control. Multiple people can work on the same projects on different parts by creating different branches. Once everything is completed the branches can be merged to the master branch, which would display the final site or page or project. 
+
 5. Define mobile-first design in your own words.
+
+A)mobile first design is where the developer keeps in mind the various devices that could veiw the website. You would start planning from the smallest common device to the largest devices that could view the website. This day and age, majority of people view things on thier phones and tablets before getting on the computer. The developer would start creating wire-frames with designing the site from smallest to the largest screen. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
