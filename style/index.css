@@ -274,15 +274,36 @@ footer .footerNav a {
 .container{
     width: 100%;
 }
-    nav{
-        flex-direction: column;
-        align-items: center;
+
+header{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+ .nav {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     top: 140px;
+     left: -100px;
+     margin-bottom: 90px;
+    }
+    .nav a{
+        padding: 5px;
     }
  .top-content{
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+ }
+ .logo{
+     position: relative;
+     left: 150px;
  }
  img{
     width: 100%;
