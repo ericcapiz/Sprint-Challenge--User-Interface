@@ -295,10 +295,16 @@ header{
     padding: 5px;
 }
  .top-content{
+    /* width: 50%; */
+    border-bottom: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+ }
+ .top-content .borderBottom{
+     width: 60%;
+     border-bottom: 1px dashed black;
  }
  .top-content img{
     width: 300px;
